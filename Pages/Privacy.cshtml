@@ -1,0 +1,153 @@
+﻿@page
+@model PrivacyModel
+@{
+    ViewData["Title"] = "Register";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Register page for ThirdParties.</p>
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" href="Favicon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+</head>
+
+<main class="login-form">
+    <div class="text-center">
+        <h1 class="display-4">Tell me! Who are you?</h1>
+    </div>
+    <div class="cotainer">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header">Login</div>
+                    <div class="card-body">
+                        <form action="" method="POST">
+                            <div class="form-group row">
+                                <label for="email_address" class="col-md-4 col-form-label text-md-right">First Name</label>
+                                <div class="col-md-6">
+                                    <input type="text" id="firstName" class="form-control" name="firstName" required autofocus>
+                                </div>
+                            </div>
+
+                             <div class="form-group row">
+                                <label for="email_address" class="col-md-4 col-form-label text-md-right">Last Name</label>
+                                <div class="col-md-6">
+                                    <input type="text" id="lastName" class="form-control" name="lastName" required autofocus>
+                                </div>
+                            </div>
+
+                             <div class="form-group row">
+                                <label for="email_address" class="col-md-4 col-form-label text-md-right">Document Type</label>
+                                <div class="col-md-6">
+                                    <input type="text" id="documentType" class="form-control" name="documentType" required autofocus>
+                                </div>
+                            </div>
+
+                             <div class="form-group row">
+                                <label for="email_address" class="col-md-4 col-form-label text-md-right">Document Number</label>
+                                <div class="col-md-6">
+                                    <input type="number" id="documentNumber" class="form-control" name="documentNumber" required autofocus>
+                                </div>
+                            </div>
+
+                             <div class="form-group row">
+                                <label for="email_address" class="col-md-4 col-form-label text-md-right">City Iata Code </label>
+                                <div class="col-md-6">
+                                    <input type="text" id="cityIataCode" class="form-control" name="cityIataCode" required autofocus>
+                                </div>
+                            </div>
+
+                             <div class="form-group row">
+                                <label for="email_address" class="col-md-4 col-form-label text-md-right">Phone Number</label>
+                                <div class="col-md-6">
+                                    <input type="number" id="phoneNumber" class="form-control" name="phoneNumber" required autofocus>
+                                </div>
+                            </div>
+
+                             <div class="form-group row">
+                                <label for="email_address" class="col-md-4 col-form-label text-md-right">Fax Number</label>
+                                <div class="col-md-6">
+                                    <input type="number" id="faxNumber" class="form-control" name="" required autofocus>
+                                </div>
+                            </div>
+
+                             <div class="form-group row">
+                                <label for="email_address" class="col-md-4 col-form-label text-md-right">Adress</label>
+                                <div class="col-md-6">
+                                    <input type="text" id="address" class="form-control" name="address" required autofocus>
+                                </div>
+                            </div>
+
+                             <div class="form-group row">
+                                <label for="email_address" class="col-md-4 col-form-label text-md-right">Mobile Phone Number</label>
+                                <div class="col-md-6">
+                                    <input type="number" id="mobilePhoneNumber" class="form-control" name="mobilePhoneNumber" required autofocus>
+                                </div>
+                            </div>
+
+                             <div class="form-group row">
+                                <label for="email_address" class="col-md-4 col-form-label text-md-right">E-Mail Address</label>
+                                <div class="col-md-6">
+                                    <input type="text" id="emailAddressRegister" class="form-control" name="emailAddressRegister" required autofocus>
+                                </div>
+                            </div>
+
+                             <div class="form-group row">
+                                <label for="email_address" class="col-md-4 col-form-label text-md-right">Country Id</label>
+                                <div class="col-md-6">
+                                    <input type="number" id="countryId" class="form-control" name="countryId" required autofocus>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="password" class="col-md-4 col-form-label text-md-right">Verification Number</label>
+                                <div class="col-md-6">
+                                    <input type="number" id="verificationNumber" class="form-control" name="verificationNumber" required>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-6 offset-md-4">
+                                <button type="submit" class="btn btn-primary">
+                                    Register
+                                </button>
+                                <a href="#" class="btn btn-link">
+                                    Forgot Your Password?
+                                </a>
+                            </div>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="text-center">
+    <p>Ayo! <a href="https://github.com/SrbastianM">Check Out my GitHub</a>.</p>
+    </div>
+
+</main>
+
+
